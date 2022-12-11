@@ -34,7 +34,7 @@ static void render_callback(Canvas* const canvas, void* ctx) {
 
     if(!plugin_state->is_on) {
         elements_multiline_text_aligned(
-            canvas, 64, 28, AlignCenter, AlignTop, "Press OK button turn on");
+            canvas, 64, 28, AlignCenter, AlignTop, "Connect LED to (+ -> 7/C3) | (GND -> GND)\n Press OK button turn on");
     } else {
         elements_multiline_text_aligned(canvas, 64, 28, AlignCenter, AlignTop, "Light is on!");
         elements_multiline_text_aligned(
